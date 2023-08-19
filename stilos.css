@@ -1,0 +1,66 @@
+body{
+    background-color: blueviolet;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: crimson;
+    padding: 20px;
+    border-radius: 5px;
+    width:  150px;
+    box-shadow: 10px 10px 5px 0px white;
+
+}
+
+input, button{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+button{
+    font-size: 1.3em;
+    color: darkgreen;
+    cursor: pointer;
+    transition: 5s;
+    border: none;
+    outline: none;
+    width: 40px;
+    position: relative;
+    left: 30px; 
+}
+
+button:hover{
+background-color: aqua;
+}
+
+
+button:active{
+    transform: translateY(5px);
+}
+
+#b1{
+    background-color: rgb(34, 178, 58);
+    width: 60px;
+
+}
+
+#b2{
+    background-color: rgb(23, 152, 161);
+    width: 60px;
+
+}
+.numero{
+
+    text-align: center;
+    background-color: azure;
+    width: 30px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 20px;
+
+}
